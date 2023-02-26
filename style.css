@@ -23,9 +23,8 @@ font-family: 'Roboto', sans-serif; */
           font-size: 1.2em;
           position: absolute;
           bottom: 20px;
-          left: 80px;
+          left: 20%;
           color:#cfa409;
-          
      }
      .corretora-subtitulo{
           font-size: .8em;
@@ -33,7 +32,6 @@ font-family: 'Roboto', sans-serif; */
           top: 220px;
           left: 20vw;
           color:#cfa409;
-   
      }
 
      ul{
@@ -56,16 +54,9 @@ font-family: 'Roboto', sans-serif; */
           
      }
 
-     main{
-          width: 200px;
-          height: 50px;
-          text-align: center;
-          margin-left: 100px;
-          margin-top: 20px;
-     }
      .reserve-agora{
           width: 100%;
-          height: 100%;
+          height: 50px;
           border-radius: 6px;
           border-style: none;
           background-color: #55e61c83;
@@ -73,7 +64,7 @@ font-family: 'Roboto', sans-serif; */
           font-family: 'Roboto', sans-serif;
      }
      .quero-esse{
-          width: 200px;
+          width: 100%;
           height: 50px;
           border-radius: 6px;
           border-style: none;
@@ -81,7 +72,7 @@ font-family: 'Roboto', sans-serif; */
           font-size: 1em;
           font-family: 'Roboto', sans-serif;
           margin-top: 18px;
-          margin-left: 100px;
+          
      }
 
      .galeria-fotos-titulo{
