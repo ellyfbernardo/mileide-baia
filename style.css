@@ -6,8 +6,12 @@ font-family: 'Roboto', sans-serif; */
 
 /* Design celular */
 @media screen and (max-width: 425px){
+     html{
+          overflow-x: hidden;
+     }
      body{
           background-color: #f5ebab4f;
+          overflow-x: hidden;
      } 
      header{
           text-align: center;
@@ -78,7 +82,6 @@ font-family: 'Roboto', sans-serif; */
           font-size: 1em;
           font-family: 'Roboto', sans-serif;
           margin-top: 18px;
-          
      }
 
      .galeria-fotos-titulo{
