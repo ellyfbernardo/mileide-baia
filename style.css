@@ -1,0 +1,265 @@
+
+
+/* Fonte para o titulo
+font-family: 'Roboto', sans-serif; */
+
+
+/* Design celular */
+@media screen and (max-width: 425px){
+     body{
+          background-color: #f5ebab4f;
+     } 
+     header{
+          text-align: center;
+          height: 350px;
+          position: relative;
+     } 
+     .logo{
+          width: 100%;
+          height: 100%;
+     }
+
+     .sub-titulo{
+          font-size: 1.2em;
+          position: absolute;
+          bottom: 20px;
+          left: 80px;
+          color:#cfa409;
+          
+     }
+     .corretora-subtitulo{
+          font-size: .8em;
+          position: absolute;
+          top: 220px;
+          left: 20vw;
+          color:#cfa409;
+   
+     }
+
+     ul{
+          font-size: 1.3em;
+          list-style: none;
+          background-color: #cc7c132a;
+          border-radius: 6px;
+          padding: 10px;
+     }
+
+     li{
+          color:#633706fd;
+          font-family: 'Roboto', sans-serif;
+     }
+
+     .sub-titulo:hover{
+          font-size: 1.2em;
+          color:#ffd336;
+          cursor: pointer;
+          
+     }
+
+     main{
+          width: 200px;
+          height: 50px;
+          text-align: center;
+          margin-left: 100px;
+          margin-top: 20px;
+     }
+     .reserve-agora{
+          width: 100%;
+          height: 100%;
+          border-radius: 6px;
+          border-style: none;
+          background-color: #55e61c83;
+          font-size: 1em;
+          font-family: 'Roboto', sans-serif;
+     }
+     .quero-esse{
+          width: 200px;
+          height: 50px;
+          border-radius: 6px;
+          border-style: none;
+          background-color: #55e61c83;
+          font-size: 1em;
+          font-family: 'Roboto', sans-serif;
+          margin-top: 18px;
+          margin-left: 100px;
+     }
+
+     .galeria-fotos-titulo{
+          color: #DEB72C;
+          text-align: center;
+          font-size: 1.2em;
+          margin-top: 30%;
+          font-family: 'Roboto', sans-serif;
+     }
+
+     .galeria-fotos-titulo-2{
+          font-family: 'Roboto', sans-serif;
+          color: #DEB72C;
+          text-align: center;
+          font-size: 1.2em;
+          margin-top: 30%;
+     }
+
+
+     /* Carrossel de fotos primeira Secção*/
+     .carrossel {
+          width: 100%;
+          overflow: hidden;
+          position: relative;  
+          width: 100%;
+          overflow-x: scroll;
+          -webkit-overflow-scrolling: touch;
+     }
+     .carrossel-container {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+     }
+     .carrossel img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+     }
+     .carrossel-container.active {
+          transform: translateX(-100%);
+        
+     }
+     
+
+     /* Carrossel de fotos primeira Secção */
+
+     /* Carrossel de fotos segunda Secção */
+     .carousel {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          overflow-x: scroll;
+          -webkit-overflow-scrolling: touch;
+     }
+     .carousel-container {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+     }
+     .carousel img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+     }
+     .carousel-container.active {
+          transform: translateX(-100%);
+     }
+
+     /* Carrossel de fotos segunda Secção */
+
+      /* Carrossel de fotos Terceira Secção */
+      
+      .carrossel1 {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          overflow-x: scroll;
+          -webkit-overflow-scrolling: touch;
+     }
+     .carrossel-container1 {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+
+     }
+     .carrossel1 img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+     }
+     .carrossel-container1.active {
+          transform: translateX(-100%);
+     }
+
+      /* Carrossel de fotos TerceiraSecção */   
+
+     a{
+          text-decoration: none;
+     }
+
+     .endereço-mapa p{
+          color: #000000;
+          margin-top: 120px;
+          font-size: .9em;
+     }
+        /* Carrossel */
+
+        .slide-to-right {
+          font-size: 20px;
+          background-color: rgba(68, 64, 64, 0.452);
+          color: #ffffff;
+          width: 60px;
+          height: 60px;
+          opacity: 0.75;
+          border: 1px solid #ffffff;
+          border-radius: 50%;
+          cursor: pointer;
+          animation: bounce_51 1s infinite;
+          position: absolute;
+          z-index: 1000;
+          top: 45%;
+          right: 2px;
+          
+          
+        }
+        @keyframes bounce_513 {
+          0%,
+            100% {
+            transform: translateX(-2%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+          }
+        
+          50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+          }
+        }
+
+
+        .slide-to-left {
+          font-size: 20px;
+          background-color: rgba(68, 64, 64, 0.452);
+          color: #ffffff;
+          width: 60px;
+          height: 60px;
+          opacity: 0.75;
+          border: 1px solid #ffffff;
+          border-radius: 50%;
+          cursor: pointer;
+          animation: bounce_51 1s infinite;
+          position: absolute;
+          z-index: 1000;
+          top: 45%;
+          left: 2px;
+         
+        }
+        
+        @keyframes bounce_51 {
+          0%,
+            100% {
+            transform: translateX(2%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+          }
+        
+          50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+          }
+        }
+
+
+}
+
+
+
+
+
+
+/* Design Tablet e Laptop */
+ /* @media screen and (max-width: 1024px){
+    
+     } */
