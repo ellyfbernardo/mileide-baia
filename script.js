@@ -105,10 +105,6 @@
   }
 
 
-
-
-
-
   function mostrarModal2(){
     let areaModal2 = document.querySelector('.modal2');
     areaModal2.style.display = 'block';
