@@ -77,3 +77,44 @@
     }
     showSlides1(slideIndex2);
   }
+
+
+
+  
+  function mostrarModal(){
+    let areaModal = document.querySelector('.modal');
+    areaModal.style.display = 'block';
+  }
+
+  function fechar(){
+    let areaModal = document.querySelector('.modal');
+    areaModal.style.display = 'none';
+  }
+
+
+
+  function mostrarModal1(){
+    let areaModal1 = document.querySelector('.modal1');
+    areaModal1.style.display = 'block';
+  }
+
+
+  function fechar1(){
+    let areaModal1 = document.querySelector('.modal1');
+    areaModal1.style.display = 'none';
+  }
+
+
+
+
+
+
+  function mostrarModal2(){
+    let areaModal2 = document.querySelector('.modal2');
+    areaModal2.style.display = 'block';
+  }
+
+  function fechar2(){
+    let areaModal2 = document.querySelector('.modal2');
+    areaModal2.style.display = 'none';
+  }

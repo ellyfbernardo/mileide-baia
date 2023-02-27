@@ -13,9 +13,9 @@
 
 
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-     <a href="https://wa.me/C?text=Tenho%20interesse%20em%20um%20dos%20seus%20imóveis." style="position:fixed;width:60px;height:60px;bottom:60px;right:15px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
-     z-index:1001;">
-<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+     <!-- <a href="https://wa.me/C?text=Tenho%20interesse%20em%20um%20dos%20seus%20imóveis." style="position:fixed;width:60px;height:60px;bottom:60px;right:15px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+     z-index:1001;"> -->
+<!-- <i style="margin-top:16px" class="fa fa-whatsapp"></i> -->
 </a>
 
 
@@ -65,15 +65,41 @@
                     <img src="01- RESID.TERRAMARIS CONDOMÍNIO CLUBE/Foto8.jpeg">
                
              </div>
-             <!-- <button onclick="previousSlide()" class="slide-to-left">⮜</button>
-             <button onclick="nextSlide()" class="slide-to-right">⮞</button> -->
-
+             <!-- <button onclick="previousSlide()" class="slide-to-left">⮜</button>-->
+             <button onclick="nextSlide()" class="slide-to-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+             </svg></button>
+             
      </section>
+
+
+     <div class="modal">
+
+          <ol class="lista-modal">
+               <li class="li-modal">Andar alto</li>
+               <li class="li-modal">Cortina de vidro</li>
+               <li class="li-modal">Banheiros com blindex</li>
+               <li class="li-modal">Espelhos e móveis planejados</li>
+                    <ul>
+                         <li class="li-descrição">Melhor custo benefício da região!!</li>
+                         <li class="li-descrição">Valor de venda R$ 830.000,00</li>
+                         <li class="li-descrição">IPTU R$ 3.500,00</li>
+                         <li class="li-descrição">Entrega imediata!</li>
+                    </ul>
+          </ol>
+          <p class="p-modal"> Varanda <em>Gourmet</em> fantástica para você receber suas visitas com todo conforto que elas merecem.</p>
+
+          <button class="fechar" onclick="fechar()"><span>Fechar</span></button>
+     </div>
+
      <a href="#"><button class="quero-esse">QUERO ESSE</button></a>
+     <button class="quero-esse" id="ver-detalhes1" onclick="mostrarModal()"><span>VER DETALHES</span></button>
+
+
 
      <h2 class="galeria-fotos-titulo">COBERTURA EM PONTA NEGRA</h2>
      <ul>
-          <li>Vista para o mar</li>
+          <li>COBERTURA DE ALTO PADRÃO</li>
           <li>Mobília completa</li>
           <li>Vaga de garagem rotativa</li>
           <li>Cobertura em Ponta Negra</li>
@@ -100,20 +126,42 @@
                     <img src="🟢COBERTURA MOBILIADA EM PONTA NEGRA/Foto15.jpeg">
                
              </div>
-             <!-- <button onclick="previousSliders()" class="slide-to-left">⮜</button>
-             <button onclick="nextSliders()" class="slide-to-right">⮞</button> -->
-             
+             <!-- <button onclick="previousSliders()" class="slide-to-left">⮜</button>-->
+             <button onclick="nextSliders()" class="slide-to-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+             </svg></button> 
+
      </section>
 
+     <div class="modal1">
+
+          <ol class="lista-modal1">
+               <li class="li-modal1">Vista para o mar</li>
+               <li class="li-modal1">Duas suítes</li>
+               <li class="li-modal1">Cozinha integrada com a sala</li>
+                    <ul>
+                         <li class="li-descrição1">IPTU R$ 3.500,00</li>
+                         <li class="li-descrição1">Condomínio R$ 865,00</li>
+                         <li class="li-descrição1">Valor de venda R$ 950.000,00</li>
+                         <li class="li-descrição1">Escriturada e documentação totalmente regular, podendo ser liberado crédito por qualquer agente financeiro.
+                         </li>
+                    </ul>
+          </ol>
+
+          <button class="fechar1" onclick="fechar1()"><span>Fechar</span></button>
+     </div>
+
      <a href="#"><button class="quero-esse">ENTRAR EM CONTATO</button></a>
+     <button class="quero-esse" id="ver-detalhes2" onclick="mostrarModal1()"><span>VER DETALHES</span></button>
+
+
+
 
      <h2 class="galeria-fotos-titulo-2">EDIFÍCIO TINTORETO - CAPIM MACIO</h2>
      <ul>
-          <li>79mt²</li>
-          <li>2 Suítes</li>
+          <li>56mt²</li>
+          <li>2 quartos, 1 suíte</li>
           <li>Móveis planejados</li>
-          <li>2 vagas na garagem</li>
-          <li>Vista para ao mar de Ponta Negra</li>
 
      </ul>
 
@@ -135,11 +183,33 @@
                     <img src="02- RESID.TERRAMARIS CONDOMÍNIO CLUBE/Foto13.jpeg">
                
              </div>
-             <!-- <button onclick="previousSlides()" class="slide-to-left">⮜</button>
-             <button onclick="nextSlides()" class="slide-to-right">⮞</button> -->
+             <!-- <button onclick="previousSlides()" class="slide-to-left">⮜</button>-->
+             <button onclick="nextSlides()" class="slide-to-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+             </svg></button> 
              
      </section>
+
+     <div class="modal2">
+
+          <ol class="lista-modal2">
+               <li class="li-modal2">Sala de estar</li>
+               <li class="li-modal2">Cozinha americana</li>
+               <li class="li-modal2">Armários projetados</li>
+                    <ul>
+                         <li class="li-descrição2">1 vaga de garagem</li>
+                         <li class="li-descrição2">Área de lazer com piscina</li>
+                         <li class="li-descrição2">Salão de festas e quadra poliesportiva
+                         </li>
+                         <li class="li-descrição2">Valor de venda R$ 300.000,00</li>
+                    </ul>
+          </ol>
+
+          <button class="fechar2" onclick="fechar2()"><span class="close">Fechar</span></button>
+     </div>
+
      <a href="#"><button class="quero-esse">QUERO ESSE</button></a>
+     <button class="quero-esse" id="ver-detalhes3" onclick="mostrarModal2()"><span>VER DETALHES</span></button>
 
      
      <!-- Rodapé -->
