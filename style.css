@@ -287,8 +287,8 @@ font-family: 'Roboto', sans-serif; */
 }
                                         /* Modal 1 */
 .modal{
-     width: 90%;
-     height: 420px;
+     width: 80%;
+     height: 470px;
      background-color: #d49440c7;
      position:absolute;;
      display: none;
@@ -296,13 +296,18 @@ font-family: 'Roboto', sans-serif; */
      animation: animate;
      animation-duration: 800ms;
      top: 108%;
-     left: 5%;
+     left: 10%;
      color: #fff;
      font-family: 'Roboto', sans-serif;
      border-radius: 4px;
+     padding: 3px;
 }
 .p-modal{
      text-align: center;
+     background-color: #f5ebab9f;
+     color: #000000;
+     height: 12%;
+     border-radius: 4px;
 }
 
 @keyframes animate {
@@ -326,20 +331,18 @@ font-family: 'Roboto', sans-serif; */
 .lista-modal{
      list-style: none;
      font-family: 'Roboto', sans-serif;
+     background-color: #f5ebab9f;
+     width:82%;
+     margin-left: 3%;
 
 }
 .li-modal{
      color: #000000;
-     font-size: 1.3em;
+     font-size: 1.1em;
      font-family: 'Roboto', sans-serif;
-     padding: 3px;
-     background-color: #f5ebab83;
-     margin-right: 20px;
-     width: 90%;
-}
-.li-descrição{
-     color: #fff;
-     font-size: .8em;
+     padding: 5px;
+     margin-left: -8%;
+
 }
                                              /* Modal 2 */
 .modal1{
@@ -355,9 +358,12 @@ font-family: 'Roboto', sans-serif; */
      left: 5%;
      color: #fff;
      font-family: 'Roboto', sans-serif;
+     padding: 7px;
 }
 .p-modal{
      text-align: center;
+     background-color: #f5ebab9f;
+
 }
 
 @keyframes animate {
@@ -380,23 +386,17 @@ font-family: 'Roboto', sans-serif; */
 .lista-modal1{
      list-style: none;
      font-family: 'Roboto', sans-serif;
-
+     margin-top: 9%;
 }
 .li-modal1{
      color: #000000;
      font-size: 1.2em;
+     margin-left: -38px;
      font-family: 'Roboto', sans-serif;
      padding: 2px;
-     background-color: #f5ebab83;
-     margin-right: 20px;
-     width: 90%;
+     background-color: #f5ebab9f;
 }
-.li-descrição1{
-     color: #fff;
-     font-size: .8em;
-     padding: 2px;
 
-}
                                             /* Modal 3 */
 
                                   
@@ -432,21 +432,18 @@ font-family: 'Roboto', sans-serif; */
 .lista-modal2{
      list-style: none;
      font-family: 'Roboto', sans-serif;
+     margin-top: 16%;
 
 }
 .li-modal2{
-     color: #fff;
-     font-size: 1.2em;
+     color: #000000;
+     font-size: 1.3em;
      font-family: 'Roboto', sans-serif;
      padding: 2px;
+     margin-left: -4%;
+     background-color: #f5ebab9f;
+     width: 95%;
 }
-.li-descrição2{
-     color: #fff;
-     font-size: .8em;
-     padding: 2px;
-
-}
-
 
 #ver-detalhes1{
      background-color: #e57a086a;
@@ -475,6 +472,9 @@ font-family: 'Roboto', sans-serif; */
      padding: 6px;
 }
 
+.p-li-descri{
+     font-size: 1.1rem;
+}
 
 
 /* Design Tablet e Laptop */
