@@ -42,16 +42,16 @@ font-family: 'Roboto', sans-serif; */
      .img-banner{
           position: absolute;
           width: 120%;
-          height: 80%;
+          height: 90%;
           /* z-index: -1; */
           /* display: none; */
-          top: 80%;
+          top: 68%;
           left: 1%;
      }
      .corretora-subtitulo{
           font-size: .8em;
           position: absolute;
-          top: 130px;
+          top: 48%;
           left: -50%;
           right: -50%;
           color:#cfa409;
