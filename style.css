@@ -31,13 +31,22 @@ font-family: 'Roboto', sans-serif; */
           width: 60%;
           height: 50%;
      }
-     .sub-titulo{
+     /* .sub-titulo{
           font-size: 1.5em;
           position: absolute;
           bottom: 40px;
           left: -50%;
           right: -50%;
           color:#cfa409;
+     } */
+     .img-banner{
+          position: absolute;
+          width: 120%;
+          height: 80%;
+          /* z-index: -1; */
+          /* display: none; */
+          top: 80%;
+          left: 1%;
      }
      .corretora-subtitulo{
           font-size: .8em;
@@ -286,15 +295,7 @@ font-family: 'Roboto', sans-serif; */
           }
         }
 
-        .img-banner{
-          position: absolute;
-          width: 120%;
-          height: 80%;
-          /* z-index: -1; */
-          /* display: none; */
-          top: 80%;
-          left: 1%;
-     }
+
 
 }
                                         /* Modal 1 */
