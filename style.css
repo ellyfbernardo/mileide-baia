@@ -68,7 +68,7 @@ font-family: 'Roboto', sans-serif; */
           background-color: #55e61c83;
           font-size: 1em;
           font-family: 'Roboto', sans-serif;
-          margin-top: 30px;
+          margin-top: 200px;
           
      }
      .quero-esse{
@@ -284,7 +284,16 @@ font-family: 'Roboto', sans-serif; */
             animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
           }
         }
+        .img-banner{
+          position: absolute;
+          width: 120%;
+          height: 80%;
+          /* z-index: -1; */
+          /* display: none; */
+          top: 80%;
+          left: 1%;
 
+     }
 
 }
                                         /* Modal 1 */
@@ -897,4 +906,14 @@ ul, ol, li{
      cursor: pointer;
 }
 
+
+.img-banner{
+     position: absolute;
+     width: 40%;
+     height: 25%;
+     z-index: -1;
+     /* display: none; */
+     top: 0%;
+     left: 2%;
+}
 }
