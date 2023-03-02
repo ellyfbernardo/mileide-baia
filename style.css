@@ -41,12 +41,15 @@ font-family: 'Roboto', sans-serif; */
      } */
      .img-banner{
           position: absolute;
-          width: 120%;
+          width: 110%;
           height: 90%;
           /* z-index: -1; */
           /* display: none; */
           top: 68%;
           left: 1%;
+     }
+     .img-banner-PC{
+          display: none;
      }
      .corretora-subtitulo{
           font-size: .8em;
@@ -110,7 +113,7 @@ font-family: 'Roboto', sans-serif; */
 
 
      footer{
-          margin-top: 30%;
+          margin-top: 10%;
           position: relative;
           font-family: 'Roboto', sans-serif;
           background-color: #cc7c132a;
@@ -514,6 +517,7 @@ header{
      text-align: center;
      margin-top: 4%;
      color: #cfa409;
+     margin-bottom: 10%;
 }
 /* picture{
 
@@ -550,6 +554,7 @@ ul, ol, li{
      background-color: #55e61c83;
      position:absolute;
      left: 40%; 
+     top: 25%;
      cursor: pointer;
 }
 .reserve-agora:hover{
@@ -692,7 +697,7 @@ ul, ol, li{
      background-color: #e57a086a;
      width: 14.9%;
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 17%;
 
 }
@@ -700,39 +705,39 @@ ul, ol, li{
 #ver-detalhes2{
      background-color: #e57a086a;
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 50%;
 }
 
 #ver-detalhes3{
      background-color: #e57a086a;
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 83%;
 
 }
 #entrar-em-contato1{
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 2%;
 
 }
 #entrar-em-contato2{
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 35%;
 
 }
 #entrar-em-contato3{
      position: absolute;
-     top: 66%;
+     top: 61%;
      left: 68%;
 
 }
 #titulo-imovel1{
      position: absolute;
      left: 2%;
-     top: 28%;
+     top: 32%;
      width: 30%;
      font-size: 1.3em;
      
@@ -751,7 +756,7 @@ ul, ol, li{
 #titulo-imovel2{
      position: absolute;
      left: 35%;
-     top: 28%;
+     top: 32%;
      width: 30%;
      font-size: 1.3em;
 }
@@ -769,7 +774,7 @@ ul, ol, li{
 #titulo-imovel3{
      position: absolute;
      left: 68%;
-     top: 28%;
+     top: 32%;
      width: 30%;
      font-size: 1.3em;
 }
@@ -910,12 +915,12 @@ ul, ol, li{
 
 
 .img-banner{
-     position: absolute;
-     width: 40%;
-     height: 25%;
-     z-index: -1;
-     /* display: none; */
-     top: 0%;
-     left: 2%;
+     display: none;
 }
+
+.img-banner-PC{
+     width: 55%;
+     height: 230px;
+}
+
 }
