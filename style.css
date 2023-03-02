@@ -17,6 +17,7 @@ font-family: 'Roboto', sans-serif; */
           text-align: center;
           height: 290px;
           position: relative;
+          margin-top: 20px;
      } 
      a{
           text-decoration: none;
@@ -284,6 +285,7 @@ font-family: 'Roboto', sans-serif; */
             animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
           }
         }
+
         .img-banner{
           position: absolute;
           width: 120%;
@@ -292,7 +294,6 @@ font-family: 'Roboto', sans-serif; */
           /* display: none; */
           top: 80%;
           left: 1%;
-
      }
 
 }
