@@ -24,6 +24,7 @@ font-family: 'Roboto', sans-serif; */
      video{
           width: 100%;
           height: 250px;
+          display: none;
      }
      .logo{
           width: 60%;
@@ -490,7 +491,7 @@ font-family: 'Roboto', sans-serif; */
 
 /* Design Tablet e Laptop */
 
-@media screen and (min-width: 768px) and (max-width: 2000px){
+@media screen and (min-width: 768px) and (max-width: 4000px){
      
 
 body{    
@@ -503,9 +504,9 @@ header{
      margin-top: 4%;
      color: #cfa409;
 }
-picture{
+/* picture{
 
-}
+} */
 
 video{
      display: none;
@@ -518,17 +519,17 @@ ul, ol, li{
      list-style: none;
 }
 
-.corretora-subtitulo{
+/* .corretora-subtitulo{
 
-}
+} */
 
 .sub-titulo{
      font-size: 1.3em;
 }
 
-video{
+/* video{
 
-}
+} */
 
 .reserve-agora{
      width: 20%;
@@ -732,6 +733,7 @@ video{
      background-color: #F4E3C1;
      border-radius: 3px;
      padding: .5em;
+     
 
 }
 
@@ -786,32 +788,47 @@ video{
      margin-top: 20px;
      font-size: 1.4em;
 }
-.social{
+/* .social{
 
-}
+} */
 .face{
      width: 3%;
      height: 3%;
      color: #000000;
      margin-right: 2em;
 }
+.face:hover{
+     color: #00000093;
+}
+
 .insta{
      width: 3%;
      height: 3%;
      margin-right: 2em;
      color: #000000;
 }
+.insta:hover{
+     color: #00000093;
+}
+
 .mail{
      width: 3%;
      height: 3%;
      margin-right: 2em;
      color: #000000;
 }
+.mail:hover{
+     color: #00000093;
+}
 .tel{
      width: 3%;
      height: 3%;
      margin-right: 2em;
      color: #000000;
+}
+.tel:hover{
+     color: #00000093;
+
 }
 .endereço-mapa{
      color: #000000;
@@ -824,9 +841,9 @@ video{
      left: 3%;
 }
 
-.lista-modal{
+/* .lista-modal{
 
-}
+} */
 
 .li-modal{
      font-size: 1.2em;
@@ -844,9 +861,9 @@ video{
      border-radius: 4px;
 }
 
-.lista-modal1{
+/* .lista-modal1{
 
-}
+} */
 
 .li-modal1{
      font-size: 1.2em;
@@ -866,9 +883,9 @@ video{
      border-radius: 4px;
 }
 
-.lista-modal2{
+/* .lista-modal2{
 
-}
+} */
 
 .li-modal2{
      font-size: 1.2em;
