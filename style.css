@@ -113,7 +113,7 @@ font-family: 'Roboto', sans-serif; */
 
 
      footer{
-          margin-top: 10%;
+          margin-top: 30%;
           position: relative;
           font-family: 'Roboto', sans-serif;
           background-color: #cc7c132a;
@@ -128,7 +128,7 @@ font-family: 'Roboto', sans-serif; */
      .nome-social{
           width: 100%;
           position: absolute;
-          bottom: 100%;
+          bottom: 110%;
           text-align: center;
           font-size: 1.2em;
      }
@@ -697,7 +697,7 @@ ul, ol, li{
      background-color: #e57a086a;
      width: 14.9%;
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 17%;
 
 }
@@ -705,32 +705,32 @@ ul, ol, li{
 #ver-detalhes2{
      background-color: #e57a086a;
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 50%;
 }
 
 #ver-detalhes3{
      background-color: #e57a086a;
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 83%;
 
 }
 #entrar-em-contato1{
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 2%;
 
 }
 #entrar-em-contato2{
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 35%;
 
 }
 #entrar-em-contato3{
      position: absolute;
-     top: 61%;
+     top: 62%;
      left: 68%;
 
 }
